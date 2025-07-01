@@ -1,0 +1,14 @@
+{
+  "app": {
+    "name": "Inventario Farmacia",
+    "description": "Sistema local de inventario para farmacia con escaneo de códigos de barra por texto",
+    "type": "gradio",
+    "entrypoint": "inventario_farmacia_pinokio.py"
+  },
+  "dependencies": {
+    "python": [
+      "gradio",
+      "pandas"
+    ]
+  }
+}
